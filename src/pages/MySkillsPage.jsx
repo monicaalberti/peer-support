@@ -10,9 +10,9 @@ const MySkillsPage = () => {
     ]);
 
     return (
-        <div>
-            <h3>Why I think I would be a good fit:</h3>
-            <ul  className="my-skills">
+        <div className="reasons-skills-container">
+            <h2>Why I think I would be a good fit:</h2>
+            <ul  className="lists">
                 <li>
                 <Skill 
                 skill="Tech skills and work experience"

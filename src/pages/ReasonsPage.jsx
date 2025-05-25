@@ -4,12 +4,12 @@ import Reason from '../components/Reason';
 const ReasonsPage = () => {
 
     return (
-        <div>
-            <h1 style={{color:"purple"}}>Reasons to Volunteer</h1>
+        <div className="reasons-skills-container">
+            <h2 style={{color:"purple"}}>Reasons to Volunteer</h2>
             <p>There are several reasons why I would like to apply for this program and become a Peer Support Leader.
                 Here is an overview of the main ones:
             </p>
-            <ul className="reasons">
+            <ul className="lists">
             <Reason 
                 reason="To make a difference in the very same community that game a chance to thrive." 
                 details="UCC has given me oppotunities that I am very grateful for and that have allowed me to achieve my dreams in a lot of ways, both professionally and on a human level. 
