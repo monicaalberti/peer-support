@@ -58,7 +58,7 @@ code {
   }
 }
 
-.reason {
+.item {
   text-align: center;
   width: 350px;
   padding: 2%; 
@@ -74,10 +74,6 @@ code {
   width: 100%;
 }
 
-/* .reasons-skills-container {
-  background-color: white;
-  border: 1px solid black;
-} */
 ul {
   list-style-type: none;
   padding: 0;

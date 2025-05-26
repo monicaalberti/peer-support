@@ -1,5 +1,5 @@
 import React from 'react';
-import Reason from '../components/Reason';
+import Item from '../components/Item';
 
 const ReasonsPage = () => {
 
@@ -10,21 +10,20 @@ const ReasonsPage = () => {
                 Here is an overview of the main ones:
             </p>
             <ul className="lists">
-            <Reason 
-                reason="To make a difference in the very same community that game a chance to thrive." 
-                details="UCC has given me oppotunities that I am very grateful for and that have allowed me to achieve my dreams in a lot of ways, both professionally and on a human level. 
+            <Item 
+                item="To make a difference in the very same community that game a chance to thrive." 
+                details="UCC has given me oppotunities that I am very grateful for and that have allowed me to achieve my dreams, both professionally and personally. 
                 I would like to help younger students have as much of a positive experiece as I did in the college."
             />
-            <Reason 
-                reason="To gain experience leading and mentoring others" 
+            <Item 
+                item="To gain experience leading and mentoring others" 
                 details="Good communication and leadership skills are very important qualities 
                 that I've had the chance to aquire thanks to previous volunteering involvement, 
                 but that i'm looking to further improve." 
             />
-            <Reason 
-                reason="To develop my skills in a real-world setting" 
-                details="I am looking to gain experience in a professional environment, 
-                and I believe that this opportunity will help me to develop my skills and knowledge." 
+            <Item 
+                item="As a goodbye to UCC and to my university experience" 
+                details="Next year will be my final year at UCC and I would like to make the most of it. This is why I have been trying to sign up for more opportunities. And I believe helpiing the newcomers is a very good way to say goodbye to the university." 
             />
                 
             </ul>

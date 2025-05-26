@@ -18,7 +18,7 @@ const HomePage = () => {
                 Hello there!
             </motion.h1>
             <div className="home-header">
-            <img src="/flork.jpg" alt="Flork making a heart with his arms" style={{ width:100 }}/>
+            <img src="/flork.jpg" alt="Flork making a heart with his arms" style={{ width:150 }}/>
             <p style={{ width:1000 }}>
             My name is Monica and I am here to explain to you why I would like to become a
             Peer Support Leader for the academic year 2025/2026 and why I think I 
